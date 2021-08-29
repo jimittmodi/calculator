@@ -26,7 +26,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh '''
-                    npm build
+                    npm run build
                 '''
             }
         }
